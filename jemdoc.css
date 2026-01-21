@@ -378,3 +378,27 @@ table.imgtable, table.imgtable td {
   display: table;
 }
 
+
+
+/* ===== jemdoc image fixes ===== */
+
+.img_left {
+    float: left;
+    margin: 0 18px 18px 0;
+    max-width: 150px;
+    height: auto;
+    display: block;
+}
+
+.img_right {
+    float: right;
+    margin: 0 0 18px 18px;
+    max-width: 150px;
+    height: auto;
+    display: block;
+}
+
+/* Prevent paragraph collapse around floated images */
+p {
+    overflow: auto;
+}
